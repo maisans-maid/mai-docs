@@ -30,9 +30,9 @@ Command | Parameters | Description | Example
 --------|------------|-------------|--------
 `baka`  | User Mention | Sends a random Baka gif pointing to the mentioned user | `m!baka [@User]`
 `cry`   | None         | Sends a random Cry gif                                 | `m!cry`
-`hug`   | User Mention | Sends a random Hug gif hugging the mentioned user      | `m!hug <@User>`
+`hug`   | User Mention | Sends a random Hug gif hugging the mentioned user      | `m!hug [@User]`
 `kiss`  | User Mention | Sends a random Kiss gif kissing the mentioned user     | `m!kiss [@User]`
-`pat`   | User Mention | Sends a random Pat gif patting the mentioned user      | `m!pat <@User>`
+`pat`   | User Mention | Sends a random Pat gif patting the mentioned user      | `m!pat [@User]`
 `poke`  | User Mention | Sends a random Poke gif poking the mentioned user      | `m!poke [@User]`
 `slap`  | User Mention | Sends a random Slap gif slapping the mentioned user    | `m!slap [@User]`
 `smug`  | None         | Sends a random Smug                                    | `m!smug`
