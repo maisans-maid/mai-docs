@@ -11,7 +11,7 @@ module.exports = {
    announcementBar: {
     id: 'support_us', // Any value that will identify this message.
     content:
-       'Coming Soon,
+       'Coming Soon',
      backgroundColor: '#fafbfc', // Defaults to `#fff`.
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
