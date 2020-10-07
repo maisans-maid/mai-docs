@@ -47,4 +47,4 @@ You added so much anime that you've lost count, and you forgot what those are. N
 Unfortunately, I did not include it as I don't see it serving any purpose. But i'm still considering it if anyone suggests.<br><br></br></br>
 - **Are there any plans to have it "User-specific" rather than "Server Specific" (Bot DMs the user when an anime airs)**<br></br>
 This feature is very hard to implement when Discord API is imposing rate-limits on it's send endpoint. Imagine multiple users are subscribed to that anime, the bot has to send the same number of messages to those users in a short amount of time. Unless Discord loosens its ratelimit rules, I don't see it being implemented in the near future.<br><br><br></br></br></br>
-### 🔗 [Go back to Home](https://github.com/maisans-maid/Mai/wiki)
+
