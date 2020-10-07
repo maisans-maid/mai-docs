@@ -1,48 +1,39 @@
 ---
 id: welcome
-title: Hello
-sidebar_label: Hey
+title: Home
+sidebar_label: Home
 ---
 
 
+##  Welcome to [Mai](https://invite.mai-san.ml/) Wiki
 
-Tamako is a Discord bot coded in JavaScript with
-[discord.js](https://discord.js.org/) With over 580 commands, she is one of the most feature-rich bots out there. 
+**A simple, multi-functional Discord bot by best girl written in discord.js 12.3.1 - Focuses more in anime..**
+<br/>
+This Wiki is designed to help you use Mai Discord Bot to it's full potential. Please select categories below to get started.<br/>
 
+---
 
-## Invite
+<a href="https://mai-san/docs/Anime_Scheduling">
+<img src="https://camo.githubusercontent.com/f129cb3e3dfbcef43e736b7a4cdc7d8ee77f3817/68747470733a2f2f692e696d6775722e636f6d2f3475346e7434672e706e67"/></a>
 
-- [Home Server](https://discord.gg/58D25t3)
-- [Invite](https://discord.com/oauth2/authorize?client_id=721100913611112470&scope=bot&permissions=1043721303&scope=bot)
+Know about the powerful Anischedule feature, what it does, and how to set one up.<br/>
 
-## Fun Information
-- 500+ commands
-- 28,000+ lines of JavaScript
-- 61,000+ lines of JSON data
-- 1 year of development
+<a href="https://mai-san/docs/Anime_Scheduling">
+<img src="https://camo.githubusercontent.com/919190f149cb932c29ada5b6040af4490192697a/68747470733a2f2f692e696d6775722e636f6d2f566843743341312e706e67"/></a>
 
-## Options
+View the full available list of commands for Mai<br/>
 
-Options in Tamako are configured using channel topics. Place the option
-in the appropriate channel's topic to use it.
+<a href="https://mai-san/docs/Anime_Scheduling">
+<img src="https://camo.githubusercontent.com/6c5d6f7b10a666db198b91fa917376f5df27b575/68747470733a2f2f692e696d6775722e636f6d2f596d62664a33362e706e67"/></a>
 
-* `<tamako:disable-leave>` Disables leave messages (Place in the channel you recieve welcome messages in).
-* `<tamako:phone>` Allows a channel to recieve phone calls from the `phone` command.
-* `<tamako:phone:no-voicemail>` Prevents this channel from recieving voicemails for missed calls.
-* `<tamako:phone:no-random>` Makes the channel only able to be called directly in the `phone` command, rather than be picked at random.
-* `<tamako:phone:block:INSERTIDHERE>` Blocks a channel or server from contacting the channel via phone.
-* `<tamako:phone-book:hide>` Hides a channel from the `phone-book` command.
-* `<tamako:portal>` Allows a channel to recieve portal messages from the `portal-send` command.
-* `<tamako:portal:hide-name>` Hides the channel and server name from the `portal-send` command when your channel is picked.
+Learn the mechanics and configuration of Mai's Economy Feature<br/>
 
+<a href="https://mai-san/docs/Anime_Scheduling">
+<img src="https://camo.githubusercontent.com/cdff4780f802f20e2536817b0b2cfa1101dfab19/68747470733a2f2f692e696d6775722e636f6d2f7654585749416a2e706e67"/></a>
 
-## Other Features
+Know about the Implementation of Experience Points by Mai
 
-Some Tamako features aren't technically commands, but are part of Tamako
-nonetheless.
+---
 
-- Leave messages are automatically sent to any channel that recieves welcome messages. These can be turned off with [an option](#options).
-- In Tamako's home server, Tamako posts a random meme from Reddit every hour using a webhook.
-- Some commands will automatically run when a certain phrase is said in any message, regardless of if the command itself was called or not. These are:
-	* Saying "no u" runs `no-u`.
-	* Saying "(╯°□°）╯︵ ┻━┻" runs `unflip`.
+## Miscellaneous
+- [Self-hosting Mai Bot](https://mai-san/docs/self_host)
