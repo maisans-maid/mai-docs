@@ -95,7 +95,7 @@ function Home() {
                 'button button--inline button--primary button--lg',
                 styles.getStarted,
               )}
-              href={'https://discord.gg/58D25t3'}>
+              href={'https://support.mai-san.ml/'}>
               Join Support Server
             </Link>
             <Link
