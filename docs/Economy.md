@@ -13,9 +13,9 @@ Economy is not `on` by default. A server administrator has to toggle this to ena
 <li><a href="#spending">Spending</a></li>
 
 ## Important Terms
-<li><a href="#Earning">Banking</a></li>
-<li><a href="#Earning">Currency Overflow</a></li>
-<li><a href="#Earning">Wallet</a></li>
+<li><a href="#banking">Banking</a></li>
+<li><a href="#overflow">Currency Overflow</a></li>
+<li><a href="#wallet">Wallet</a></li>
 
 ## Earning
 Earning Currency from this bot isn't that hard, but the way to earn it isn't a lot either. The bot only have 4 ways to earn currencies, which are `beg`, `bet`, `find`, and `daily` (see <a href="">Currency Commands</a>).<br/>
