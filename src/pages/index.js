@@ -12,49 +12,52 @@ const features = [
     imageUrl: 'img/mod.png',
     description: (
       <>
-        You can easily moderate your server with the help of Mai
-        She has got you covered
+       Having problem managing your server? Well, we have Moderation commands to make up for that. Kick, Ban, Mute, all in 1 click!
       </>
     ),
   },
 {
-    title: 'Support Sytem',
+    title: 'Anime',
     imageUrl: 'img/support.png',
     description: (
       <>
-        Tamako has a Ticket Support System to help your
-	server members directly talk with support team on your server.
-	She can even archive those tickets and give you a copy
+       With many anime sources to pull from, search your favorite anime, manga characters, and even memes about them!
       </>
     ),
   },
  {
-    title: 'Voice',
+    title: 'Action',
     imageUrl: 'img/music.png',
     description: (
       <>
-        Tamako can play Music and even different sounds from the SoundBoard<br/>
-        You can check the list by clicking <a href="/docs/Soundboard">here</a>
+Supplied with action commands such as pat, kiss, and hug to spice up the chat environment more!
       </>
     ),
   },
   {
-    title: 'All In One',
+    title: 'Setup',
     imageUrl: 'img/only.png',
     description: (
       <>
-        Tamako is the only bot you will ever need<br/>
-        From custom Welcome & Goodbye message to server stats to XP system and much more.
+        With wide variety of features, such as anime announcements, it has been made easy to integrate these in your server with my setup commands!
       </>
     ),
   },
   {
-    title: 'Sharding',
+    title: 'Core',
     imageUrl: 'img/shard.svg',
     description: (
       <>
-        Tamako has multiple shards to reduce the response time
-        and provide you with the output as soon as possible.
+      Core commands are also here, which are filled with commands about Mai! Dont forget to spam that one LMAO.
+      </>
+    ),
+  },
+{
+    title: 'Many More',
+    imageUrl: 'img/only.png',
+    description: (
+      <>
+     Wow! I am running out of slot and there are still many commands left to discuss. Anyway, just go to my repo to view all commands!
       </>
     ),
   },
