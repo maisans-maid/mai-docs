@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/mod.png',
     description: (
       <>
-       Having problem managing your server? Well, we have Moderation commands to make up for that. Kick, Ban, Mute, all in 1 click!
+       Having problem managing your server?<br>Well, we have Moderation commands to make up for that. Kick, Ban, Mute, all in 1 click!
       </>
     ),
   },
