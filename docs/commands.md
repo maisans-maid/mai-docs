@@ -22,20 +22,20 @@ sidebar_label: Commands
 
 |&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCommands&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| Description                                                                                        |
 |----------------------------------------|----------------------------------------------------------------------------------------------------|
-| ``m!anime <Anime Title>``             | Queries Anime on MyAnimeList to get Anime's basic Information                                      |
-| ``m!anime <Configuration>``          | Sends a meme fetched from the subredit r/animemes                                                  |
+| ``m!anime <Anime Title>``             | Queries Anime on [MyAnimeList](https://myanimelist.net/) to get Anime's basic Information                                      |
+| ``m!anime <Configuration>``          | Sends a meme fetched from the subredit [r/animemes](https://reddit.com/r/animemes)                                                  |
 | ``m!aniquote``                         | Sends a totally random anime quote                                                                 |
 | ``m!anirandom``                        | Sends a totally random anime                                                                       |
-| ``m!character <Character Name>``       | Queries Anime Character on MyAnimeList to get Character's basic Information                        |
+| ``m!character <Character Name>``       | Queries Anime Character on [MyAnimeList](https://myanimelist.net/) to get Character's basic Information                        |
 | ``m!discover [Anime Name]``         | Get a personalized anime / manga recommendation                                                    |
 | ``m!malprofile [@User]``               | View or set own's MAL profile to your discord account (bot-bound)                                  |
-| ``m!manga <Character Name>``             | Queries Manga on MyAnimeList. Returns up to 10 results                                             |
+| ``m!manga <Character Name>``             | Queries Manga on [MyAnimeList](https://myanimelist.net/). Returns up to 10 results                                             |
 | ``m!mangarandom``                      | Sends a totally random anime                                                                       |
 | ``m!nextairdate <Anime Title>`` | Sends the next episode's airdate if a query is provided, or returns the next three airing episodes |
 | ``m!waifu``                            | Generate random waifu image                                                                        |
 | ``m!sauce [5 or 6-digit ID]``      | NSFW WARNING! Grabs the doujin Information based on the provided ID                                |
 | ``m!schedule <Day of week>``               | Returns the provided weekday's anime schedule, or today if none is provided                        |
-| ``m!seiyuu <Seiyuu Name>``            | Queries Voice Actress on AniList to get VA's basic Information                                     |
+| ``m!seiyuu <Seiyuu Name>``            | Queries Voice Actress on [AniList](https://anilist.co/) to get VA's basic Information                                     |
 
 ## Bot 
 | &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCommands&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| Description                                                                                                               |
@@ -52,10 +52,10 @@ sidebar_label: Commands
 | ``m!help [Command Name]``     | Sends the command information for the provided command name                               |
 | ``m!leaderboard``             | Sends the server xp leaderboard [Server and Channel Must be xp enabled]                   |
 | ``m!mai``                     | Sends a random Mai Image                                                                  |
-| ``m!nonxpchannels``           | Displays the list of channels where xp is disabled [Server must be xp enabled]            |
+| ``m!nonxpchannels``           | Displays the list of channels where [xp](https://mai-san.ml/docs/xp_system) is disabled [Server must be xp enabled]            |
 | ``m!rank <@User>``            | Displays own / mentioned user's server xp ranking [Server and channel must be xp enabled] |
 | ``m!suggestion [Suggestion]`` | Send a suggestion for the server [Requires a set suggest channel]                         |
-| ``m!watching``                | Sends the list of anime under the server's Anischedule Feature (if enabled)               |
+| ``m!watching``                | Sends the list of anime under the server's [Anischedule Feature](https://mai-san.ml/docs/Anime_Scheduling) (if enabled)               |
 
 
 ## Economy
@@ -65,7 +65,7 @@ sidebar_label: Commands
 `m!bank`      | Register yourself to the bank (If you don't have a bank yet)
 `m!beg`        | Beg for some coins. Don't let pride get in your way to get rich! 
 `m!daily`      | Get daily reward from Mai. Remember to keep your streak for increased rewards 
-`m!deposit [Amount]` | Deposit some of your money to the bank (If you have a bank) to prevent [overflow](https://github.com/maisans-maid/Mai/wiki/Economy#Overflow) 
+`m!deposit [Amount]` | Deposit some of your money to the bank (If you have a bank) to prevent [overflow](https://mai-san.ml/docs/Economy#overflow) 
 `m!find`      | Find some coins around 
 `m!register` | Register yourself to the Economy System for free! 
 `m!transfer` | Transfer some of your coins to your friend. Both parties have to be registered to a bank! 
@@ -107,13 +107,13 @@ sidebar_label: Commands
 `m!hackban [UserID]` |  Bans a user from the server even if the user is not on that server
 `m!kick [@user]` | Kicks the user out of the server 
 `m!lockdown` | Prevent/Allow users from messaging in the current channel. Note that this resets all the permissions for the channel 
-`m!mute [@User]` |  Mutes a user (gives the user the set mutedrole, see [setmutedrole](#Setup)) | `m!mute [@User]`
+`m!mute [@User]` |  Mutes a user (gives the user the set mutedrole, see [setmutedrole](#setup)) | `m!mute [@User]`
 `m!nuke` | Removes all the messages from the channel (Clones the channel and deletes the original)
 `m!removeroles [@user]` |  Removes all the roles the User has 
 `m!respond [MessageID] [Accept/deny] [Reason]`  | Responds to a user's suggestion. 
 `m!softban [@user]` |  Kicks the user and deletes all his messages from the server 
 `m!unban [UserID]` | Unbans any banned member from the server 
-`m!unmute [@User]` |  Unmutes a user (removes the set mutedrole from the user, see [setmutedrole](#Setup)) 
+`m!unmute [@User]` |  Unmutes a user (removes the set mutedrole from the user, see [setmutedrole](#setup)) 
 
 
 ## Owner
@@ -128,18 +128,18 @@ sidebar_label: Commands
 ## Setup
 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCommand&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp| Description 
 --------|------------
-`m!disableanisched`  | Disables the [Anisched](https://github.com/maisans-maid/Mai/wiki/Anischedule) feature on the server 
+`m!disableanisched`  | Disables the [Anisched](https://mai-san.ml/docs/Anime_Scheduling) feature on the server 
 `m!economytoggle`  | Toggles the economy system for the server on or off
-`m!setanischedch [#channel]`  | Sets the mentioned channel as the [Anischedule](https://github.com/maisans-maid/Mai/wiki/Anischedule) Channel for the server 
-`m!setinvite [URL] [Description]`  | Set an invite link + description for your server to be advertised whenever the command [`invite`](#Bot) is used.
+`m!setanischedch [#channel]`  | Sets the mentioned channel as the [Anischedule](https://mai-san.ml/docs/Anime_Scheduling) Channel for the server 
+`m!setinvite [URL] [Description]`  | Set an invite link + description for your server to be advertised whenever the command [`invite`](#bot) is used.
 `m!setmute [@role/ID]`  | Sets the provided role resolvable to the Muted Role 
 `m!setsuggestch [#channel]` | Sets the mentioned channel as the stream for suggest channel 
 `m!unwatch [URL]`  | Removes an anime show from the watchlist
 `m!watch [URL]` | Adds an anime show to the watchlist
-`m!xpenable [#channel]`  | Enables previously XP-disabled channels. see [XP](https://github.com/maisans-maid/Mai/wiki/XP) 
-`m!xpexcempt [#channel]` | Channel Mention(s) | Disables previously XP-enabled channels. see [XP]
-`m!xpreset` |Resets the XP System for the server. see [XP](https://github.com/maisans-maid/Mai/wiki/XP)
-`m!xptoggle` | Toggles the XP System on / off for the server. see [XP](https://github.com/maisans-maid/Mai/wiki/XP) 
+`m!xpenable [#channel]`  | Enables previously XP-disabled channels. see [XP](https://mai-san.ml/docs/xp_system) 
+`m!xpexcempt [#channel]` | Channel Mention(s) | Disables previously XP-enabled channels. see [XP](https://mai-san.ml/docs/xp_system)
+`m!xpreset` |Resets the XP System for the server. see [XP](https://mai-san.ml/docs/xp_system)
+`m!xptoggle` | Toggles the XP System on / off for the server. see [XP](https://mai-san.ml/docs/xp_system) 
 
 
 ## Utility
@@ -178,7 +178,7 @@ Command | category | Removal Reason | Status |
 `backdoor` | owner  | Violates Discord ToS | ☠️
 `execute` | owner | Useless Command | ☠️
 `automessage` | setup  | Currently Broken (v3.0.0) | 🛠️
-`whois` | utility  | Violates Discord ToS. Replaced with [`userinfo`](#Utilitiy) command | ☠️
+`whois` | utility  | Violates Discord ToS. Replaced with [`userinfo`](#utilitiy) command | ☠️
 
 
  - All of the music command from the previous version, [2.4.0](https://github.com/maisans-maid/Mai/tree/2.4.0/commands/music), has been removed due to the hosting limitations of the bot. These commands, however, are almost complete (for the latest version) but will never be pushed unless the bot gets a proper hosting service. If you forked the latest (3.0.0) version and want to use the music feature, feel free to open an issue. I will create a branch for it if someone is interested once it is complete.
