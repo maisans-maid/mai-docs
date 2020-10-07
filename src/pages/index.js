@@ -36,7 +36,7 @@ Supplied with action commands such as pat, kiss, and hug to spice up the chat en
   },
   {
     title: 'Setup',
-    imageUrl: 'img/only.png',
+    imageUrl: 'https://i.imgur.com/RxY1UFN.png',
     description: (
       <>
         With wide variety of features, such as anime announcements, it has been made easy to integrate these in your server with my setup commands!
