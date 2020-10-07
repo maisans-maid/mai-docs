@@ -12,12 +12,13 @@ module.exports = {
       collapsed: true,
       items: [
         {
-          Setup: ['Economy', 'Anime_Scheduling', 'xp'],
+          Setup: ['xp_system', 'Anime_Scheduling'],
         },
-        'Commands',
-        'upcoming',
+        'Economy',
+        'welcome',
+        'self_host'
        
-        'selfhost',
+        
       ],
     },
     
