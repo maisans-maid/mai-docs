@@ -1,10 +1,11 @@
 module.exports = {
-  title: 'Tamako',
+  title: 'Mai',
   tagline: 'A Discord Bot Based Around Anime',
   url: 'https://mai-san.ml/',
   baseUrl: '/',
+
   onBrokenLinks: 'throw',
-  favicon: 'img/logo.png',
+  favicon: 'https://maisans-maid.github.io/mai.moe/images/main_profile.png',
   organizationName: 'Maiden Sen', // Usually your GitHub org/user name.
   projectName: 'Mai', // Usually your repo name.
   themeConfig: {
@@ -21,7 +22,7 @@ module.exports = {
       title: 'Mai - A discord bot',
       logo: {
         alt: 'Mai',
-        src: 'img/logo.png',
+        src: 'https://maisans-maid.github.io/mai.moe/images/main_profile.png',
       },
       items: [
         {
@@ -41,7 +42,7 @@ module.exports = {
     footer: {
       style: 'dark',
       
-      copyright: `Copyright © ${new Date().getFullYear()} Tamako Bot | Made by Sakurajimai#6742`,
+      copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
 
