@@ -26,7 +26,7 @@ Before you start everything, make sure Mai has the necessary Permissions [`SEND_
 To be able to do this, you will need to have the administrator permission. This will let the bot know where to announce the anime once it's episode has started airing. Make sure the mentioned channel is accessible by the bot (`READ_MESSAGE` perms is enabled) and allows the bot to write messages on that channel. It is recommended you create a dedicated channel (Only Mai has access to `SEND_MESSAGES` permissions) so that announcement aren't buried along with the ongoing conversation.
 <br><br></br></br>
 ### 2. Search for currently airing anime you wanted to keep track of (via browser or the m!anime command), grab the link, use the `m!watch` command and pass the copied URL as the parameter.<br></br>
-###### Usage: `m!watch [anime URL]` <br></br></br>
+###### Usage: `m!watch [anime URL]` <br></br>
 ###### Example: `m!watch https://anilist.co/anime/101291/Seishun-Buta-Yarou-wa-Bunny-Girl-Senpai-no-Yume-wo-Minai`<br></br>
 <img src = 'https://media.discordapp.net/attachments/728866550207086642/761481106645712946/unknown.png'><br></br></img>
 Take note that the only accepted URLs are from [MyAnimeList](https://myanimelist.net) and [AniList](https://anilist.co). Wait for a confirmation from the bot. If the anime is already listed on your server, the anime will not be added, but you will be notified instead that the URL you submitted is already listed. Finished or Cancelled anime series cannot be added, but you can add upcoming anime as long as it has an official entry on AniList.
