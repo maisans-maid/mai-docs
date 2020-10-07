@@ -84,7 +84,7 @@ function Home() {
   return (
     <Layout
       title={`Multipurpose Discord Bot `}
-      description="Tamako,the only bot you will ever need.">
+      description="Mai is a Bot Based Around Anime">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
