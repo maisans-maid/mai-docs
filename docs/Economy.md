@@ -35,7 +35,7 @@ You can transfer your currency around, from your wallet to bank (depositing), ba
 - The minimum required amount to transfer from and to bank is 100. This is also true when transferring amount from bank to bank.
 - The taxation is different from deposit/withdraw to transfer (Deposit and Withdraw has 5% fee, Transfer has twice the amount at 10%)
 - Transferring requires both of the parties involved to have a bank account (Mai's banking system, not real bank account)
-- You cannot withdraw an amount greater than what your wallet can hold (20000 coins atm, subject to change). If you attempt to do so, you'll receive an error stating that it can cause a currency [overflow](#Overflow) together with the maximum amount you can withdraw at the moment.
+- You cannot withdraw an amount greater than what your wallet can hold (20000 coins atm, subject to change). If you attempt to do so, you'll receive an error stating that it can cause a currency [overflow](#overflow) together with the maximum amount you can withdraw at the moment.
 ## Betting
 A not-so-reliable way of earning coins in the Mai Economy. The Betting system has 33.33% win rate and rewards can be as twice up to 10x the amount of the bet amount (e.g. betting 500 will give you at least 1000 up to 5000 coin). The bet result will arrive a minute after you made the bet, but the bet amount will be instantly subtracted from your wallet. You will also need a bank to start betting (Won amounts are automatically transferred to your bank without taxes). The minimum bet amount is 500, while the maximum bet amount is 5000.
 ## Spending
