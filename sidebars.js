@@ -15,7 +15,7 @@ module.exports = {
           Setup: ['xp_system', 'Anime_Scheduling'],
         },
         'Economy',
-        'welcome',
+      
         'self_host'
        
         
