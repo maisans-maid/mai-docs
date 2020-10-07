@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Moderation',
-    imageUrl: 'img/mod.png',
+    imageUrl: 'img/mai 4.png',
     description: (
       <>
        Having problem managing your server?<br/>Well, we have Moderation commands to make up for that. Kick, Ban, Mute, all in 1 click!
@@ -18,7 +18,7 @@ const features = [
   },
 {
     title: 'Anime',
-    imageUrl: 'img/support.png',
+    imageUrl: 'img/mai 6.png',
     description: (
       <>
        With many anime sources to pull from, search your favorite anime, manga characters, and even memes about them!
@@ -27,7 +27,7 @@ const features = [
   },
  {
     title: 'Action',
-    imageUrl: 'img/music.png',
+    imageUrl: 'img/mai 5.png',
     description: (
       <>
 Supplied with action commands such as pat, kiss, and hug to spice up the chat environment more!
@@ -36,7 +36,7 @@ Supplied with action commands such as pat, kiss, and hug to spice up the chat en
   },
   {
     title: 'Setup',
-    imageUrl: 'https://i.imgur.com/RxY1UFN.png',
+    imageUrl: 'img/mai 1.png',
     description: (
       <>
         With wide variety of features, such as anime announcements, it has been made easy to integrate these in your server with my setup commands!
@@ -45,7 +45,7 @@ Supplied with action commands such as pat, kiss, and hug to spice up the chat en
   },
   {
     title: 'Core',
-    imageUrl: 'img/shard.svg',
+    imageUrl: 'img/mai 7.png',
     description: (
       <>
       Core commands are also here, which are filled with commands about Mai! Dont forget to spam that one LMAO.
@@ -54,7 +54,7 @@ Supplied with action commands such as pat, kiss, and hug to spice up the chat en
   },
 {
     title: 'Many More',
-    imageUrl: 'img/only.png',
+    imageUrl: 'img/mai 2.png',
     description: (
       <>
      Wow! I am running out of slot and there are still many commands left to discuss. Anyway, just go to my repo to view all commands!
