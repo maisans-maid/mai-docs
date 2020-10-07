@@ -27,7 +27,7 @@ Earning Currency from this bot isn't that hard, but the way to earn it isn't a l
 `find`| 1 - 3 hrs (Random) | 100 - 300 coins (Random) | 
 `daily` | 24 hours (streak is lost within 48 hours) | 550 coins (Base) <br/> + 50 coins per streak |
 
-Before you are able to use these commands properly, you will have to need a <a href="wallet">wallet</a>. You will also need to have a <a href="banking">bank</a> to prevent currency <a href="overflow">overflow</a>
+Before you are able to use these commands properly, you will have to need a <a href="#wallet">wallet</a>. You will also need to have a <a href="#banking">bank</a> to prevent currency <a href="#overflow">overflow</a>
 ## Transferring
 You can transfer your currency around, from your wallet to bank (depositing), bank to wallet (withdrawing), and even bank to another bank (transferring).
 - When you transfer currency from your wallet to the bank, you will need to pay for an additional 5% of the amount to be deposited (e.g. depositing 100 requires you to have 105 on your wallet).
