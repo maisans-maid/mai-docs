@@ -12,7 +12,7 @@ module.exports = {
       collapsed: true,
       items: [
         {
-          Setup: ['xp_system', 'Anime_Scheduling'],
+          Setup: ['Anime_Scheduling', 'xp_system'],
         },
         'Economy',
       'commands',
