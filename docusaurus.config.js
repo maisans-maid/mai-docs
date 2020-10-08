@@ -35,13 +35,13 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-         {
-          to: '/about_me',
-          label: 'About Me',
+          {
+          type: 'doc',
           position: 'left',
-          activeBaseRegex: `/About_Me/`,
+          docId: 'About_Me',
+          label: 'About Mai',
         },
-        //{to: 'blog', label: 'Blog', position: 'left'},
+    
         {
           href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
           label: 'Invite Now',
@@ -55,27 +55,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
-plugins: [
-  [
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html'],
-        createRedirects: function (path) {
-          // redirect to /docs from /docs/introduction,
-          // as introduction has been made the home doc
-          if (allDocHomesPaths.includes(path)) {
-            return [`${path}/welcome`];
-          }
-        },
-        redirects: [
-          {
-            from: ['/docs/about_me'],
-            to: '/',
-          }
-        ],
-      },
-    ],
-  ],
+
   presets: [
     [
       '@docusaurus/preset-classic',
