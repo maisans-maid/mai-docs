@@ -21,7 +21,32 @@ module.exports = {
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
   },
-    navbar: {
+   
+
+  plugins: [
+[
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        createRedirects: function (path) {
+          // redirect to /docs from /docs/introduction,
+          // as introduction has been made the home doc
+          if (allDocHomesPaths.includes(path)) {
+            return [`${path}/introduction`];
+          }
+        },
+        redirects: [
+          {
+            from: ['/docs/About_Me'],
+            to: '/about/About_Me',
+          },
+          
+         ],
+      },
+    ],
+    ],
+
+ navbar: {
        hideOnScroll: true,
       title: 'Mai - A discord bot',
       logo: {
@@ -55,29 +80,6 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
-
-  plugins: [
-[
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html'],
-        createRedirects: function (path) {
-          // redirect to /docs from /docs/introduction,
-          // as introduction has been made the home doc
-          if (allDocHomesPaths.includes(path)) {
-            return [`${path}/introduction`];
-          }
-        },
-        redirects: [
-          {
-            from: ['/docs/About_Me'],
-            to: '/about/About_Me',
-          },
-          
-         ],
-      },
-    ],
-
   presets: [
     [
       '@docusaurus/preset-classic',
