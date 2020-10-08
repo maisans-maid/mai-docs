@@ -32,7 +32,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'About Mai/About_Mai',
+          to: 'about/About_Me',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
