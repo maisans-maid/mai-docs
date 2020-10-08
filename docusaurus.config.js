@@ -72,12 +72,10 @@ plugins: [
           {
             from: ['/docs/about_me'],
             to: '/about_me',
-          },
-        
+          
         ],
       },
     ],
-  
   presets: [
     [
       '@docusaurus/preset-classic',
