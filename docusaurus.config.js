@@ -40,14 +40,14 @@ module.exports = {
           position: 'left',
         },
  {
-   href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
+          to: "About_Me",
           activeBasePath: 'about',
           label: 'About Me',
           position: 'left',
         },
     
         {
-          href: 'https://mai-san.ml/About_Mai',
+          href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
           label: 'Invite Now',
           position: 'right',
         },
