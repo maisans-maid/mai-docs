@@ -76,6 +76,7 @@ plugins: [
         ],
       },
     ],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -90,7 +91,5 @@ plugins: [
         }
       },
     ],
-  ],
-
-
+  ]
 };
