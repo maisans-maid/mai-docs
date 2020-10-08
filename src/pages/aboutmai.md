@@ -1,4 +1,8 @@
-
+---
+title: About Mai
+description: My Name is Mai Sakurajima 
+hide_table_of_contents: true
+---
 ![image alt >](https://mai-san.ml/assets/images/mai-0935b1019b474e45e43b8c1096353dac.png)
 My Name is Mai Sakurajima and i am from the anime Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai, known in english as Rascal Does not Dream of Bunny Girl Senpai.
 <br/>
