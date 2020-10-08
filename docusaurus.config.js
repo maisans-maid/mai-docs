@@ -1,6 +1,5 @@
 const allDocHomesPaths = [
   '/docs/',
-  ...versions.slice(1).map((version) => `/docs/${version}/`),
 ];
 
 module.exports = {
