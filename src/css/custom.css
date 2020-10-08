@@ -16,6 +16,10 @@
 --ifm-color-primary-lightest: #f9d4e3;
   --ifm-code-font-size: 95%;
 }
+/* Adding Image Properties jsut exterimanetal*/
+img[alt$=">"] {
+  float: right;
+}
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
