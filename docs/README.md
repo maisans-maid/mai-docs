@@ -2,7 +2,7 @@
 id: welcome
 title: Home
 sidebar_label: Home
-slug: /
+
 ---
 
 
