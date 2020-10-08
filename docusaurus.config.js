@@ -33,8 +33,8 @@ module.exports = {
         },
         {
           to: 'about/About_Me',
-          activeBasePath: 'docs',
-          label: 'Docs',
+          activeBasePath: 'about',
+          label: 'About Me',
           position: 'left',
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
