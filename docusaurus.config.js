@@ -26,16 +26,16 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/welcome',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'about/About_Me',
-          activeBasePath: 'about',
-          label: 'About Me',
+          to: '/about/',
+          label: 'About Mai',
           position: 'left',
+          activeBaseRegex: `/about/`,
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
