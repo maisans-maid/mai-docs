@@ -23,28 +23,7 @@ module.exports = {
   },
    
 
-  plugins: [
-[
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html'],
-        createRedirects: function (path) {
-          // redirect to /docs from /docs/introduction,
-          // as introduction has been made the home doc
-          if (allDocHomesPaths.includes(path)) {
-            return [`${path}/introduction`];
-          }
-        },
-        redirects: [
-          {
-            from: ['/docs/About_Me'],
-            to: '/about/About_Me',
-          },
-          
-         ],
-      },
-    ],
-    ],
+
 
  navbar: {
        hideOnScroll: true,
@@ -61,14 +40,14 @@ module.exports = {
           position: 'left',
         },
  {
-          to: 'docs/About_Me',
+   href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
           activeBasePath: 'about',
           label: 'About Me',
           position: 'left',
         },
     
         {
-          href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
+          href: 'https://mai-san.ml/About_Mai',
           label: 'Invite Now',
           position: 'right',
         },
