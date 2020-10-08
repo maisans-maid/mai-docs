@@ -1,5 +1,5 @@
 ---
-title: About Mai
+title: About Me
 description: My Name is Mai Sakurajima 
 hide_table_of_contents: true
 ---
