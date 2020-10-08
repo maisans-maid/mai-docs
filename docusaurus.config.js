@@ -72,7 +72,7 @@ plugins: [
           {
             from: ['/docs/about_me'],
             to: '/about_me',
-          
+          }
         ],
       },
     ],
