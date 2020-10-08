@@ -32,7 +32,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/about',
+          to: 'docs/About_Me',
           label: 'About Mai',
           position: 'left',
           activeBaseRegex: `/about/`,
