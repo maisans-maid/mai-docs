@@ -35,7 +35,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-    {to: 'About_Me', label: 'About Mai', position: 'left'},
+ {
+          to: 'about/About_Me',
+          activeBasePath: 'docs',
+          label: 'Docs',
+          position: 'left',
+        },
     
         {
           href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
