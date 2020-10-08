@@ -41,7 +41,7 @@ module.exports = {
         },
  {
           to: "About_Me",
-          activeBasePath: '/',
+          activeBasePath: 'about/',
           label: 'About Me',
           position: 'left',
         },
