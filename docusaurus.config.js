@@ -73,7 +73,7 @@ module.exports = {
             from: ['/docs/About_Me'],
             to: '/about/About_Me',
           },
-          
+          ],
         ],
       },
     ]
