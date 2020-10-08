@@ -1,3 +1,8 @@
+const allDocHomesPaths = [
+  '/docs/',
+  ...versions.slice(1).map((version) => `/docs/${version}/`),
+];
+
 module.exports = {
   title: 'Mai',
   tagline: 'A Discord Bot Based Around Anime',
@@ -31,11 +36,11 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {
-          to: 'docs/About_Me',
-          label: 'About Mai',
+         {
+          to: '/about_me',
+          label: 'About Me',
           position: 'left',
-          activeBaseRegex: `/about/`,
+          activeBaseRegex: `/About_Me/`,
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
@@ -51,7 +56,28 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
-
+plugins: [
+  [
+      '@docusaurus/plugin-client-redirects',
+      {
+        fromExtensions: ['html'],
+        createRedirects: function (path) {
+          // redirect to /docs from /docs/introduction,
+          // as introduction has been made the home doc
+          if (allDocHomesPaths.includes(path)) {
+            return [`${path}/welcome`];
+          }
+        },
+        redirects: [
+          {
+            from: ['/docs/about_me'],
+            to: '/about_me',
+          },
+        
+        ],
+      },
+    ],
+  
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -67,4 +93,6 @@ module.exports = {
       },
     ],
   ],
+
+
 };
