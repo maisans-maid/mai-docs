@@ -52,7 +52,7 @@ sidebar_label: Commands
 | ``m!help [Command Name]``     | Sends the command information for the provided command name                               |
 | ``m!leaderboard``             | Sends the server xp leaderboard [Server and Channel Must be xp enabled]                   |
 | ``m!mai``                     | Sends a random Mai Image                                                                  |
-| ``m!nonxpchannels``           | Displays the list of channels where [XP](Features/XP_System.md) is disabled [Server must be xp enabled]            |
+| ``m!nonxpchannels``           | Displays the list of channels where [XP](Features/XP_system.md) is disabled [Server must be xp enabled]            |
 | ``m!rank <@User>``            | Displays own / mentioned user's server xp ranking [Server and channel must be xp enabled] |
 | ``m!suggestion [Suggestion]`` | Send a suggestion for the server [Requires a set suggest channel]                         |
 | ``m!watching``                | Sends the list of anime under the server's [Anischedule Feature](Features/Anischedule.md) (if enabled)               |
