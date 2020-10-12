@@ -21,7 +21,7 @@ module.exports = {
       textColor: '#091E42', // Defaults to `#000`.
       isCloseable: true, // Defaults to `true`.
   },
-   
+
 
 
 
@@ -34,7 +34,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/welcome',
+          to: 'docs/Getting Started/welcome',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -45,7 +45,7 @@ module.exports = {
           label: 'About Me',
           position: 'left',
         },
-    
+
         {
           href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
           label: 'Invite Now',
@@ -55,7 +55,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      
+
       copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
@@ -66,7 +66,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-        
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

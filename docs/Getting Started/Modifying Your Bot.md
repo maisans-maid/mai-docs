@@ -1,43 +1,8 @@
 ---
-id: self_host
-title: Self Hosting The Bot
-sidebar_label: Self Hosting 
+id: modifying_the_bot
+title: Modifying the Bot
+sidebar_label: Modifying the Bot
 ---
-
-Mai Bot isn't designed to be self-hosted, though people have been forking the repository anyway. So here are the details you need to know in order to run the bot properly.
-
-## Preparations
-
-:::caution
-To use discord.js (Mai Bot uses Discord.js to interact with the Discord API), you'll need to install Node.js. 
-If you do have Node installed, but have an older version (i.e. anything below 12.0), you should upgrade to the latest version. Discord.js v12 requires Node 12.0 or higher. 
-:::
-<br/>
-
-**1. Get the project Locally**<br/>
-Run the following commands to get the project locally
-```
-git clone https://github.com/maisans-maid/Mai.git # or clone your own fork
-cd Mai
-npm install
-npm build
-```
-
-<br/>
-
-**2. Create a new .env file in the root directory of the project with the following properties:**
-```
-TOKEN=
-MONGO=
-```
-This is also present on .env_example file on the root directory of the project <br/>
-`TOKEN` should be the bot token obtained from [Discord's developer panel](https://discord.com/developers). <br/>
-`MONGO` should be your mongo DB password, if you want to use the MONGO Database. You can use the bot without this too, but you won't be able to use [commands](#) that rely on Mongo DB. 
-
-<br/>
-
-**3. Start the bot**
-You can start the bot by typing in `npm start` in the commandline.<br/><br/>
 
 ## Using the Discord.js Client Settings/Parameters
 Using the client structure extended from the discord.js client constructor, pass the [Discord.js Client Settings](https://discord.js.org/#/docs/main/stable/typedef/ClientOptions) under the variable `clientSettings`.
@@ -59,7 +24,7 @@ const client = new Client({
 ## Hosting Client Settings
 Because Mai bot is not designed to be hosted by others, default values for the Client Constructor are not set, which means you need to set them all individually, or the bot will fail to start.
 
-| Parameter | Type |  Description | 
+| Parameter | Type |  Description |
 |---|---|---|
 |`bootTimeStart` | [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number) | Sets the Timestamp when the bot started booting up |
 |`collections` | [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)   | Create new collections to be used in the bot. Names in the array will be the collection name. Can be accessed via struct/PersonalizedCollections|
@@ -85,7 +50,7 @@ const Client = require('./struct/Client);
 const client = new Client({
  bootTimeStart: start,
  collections: [
-   'memes' 
+   'memes'
   ],
  commandgroups: [
   'anime',
@@ -113,6 +78,6 @@ If you have your own uri, you can change your mongo connector by going to `struc
 
 this.connector: //your connector URI
 
-// do not change anything inside this file if you don't know 
+// do not change anything inside this file if you don't know
 // what each variable means and functions as.
 ```

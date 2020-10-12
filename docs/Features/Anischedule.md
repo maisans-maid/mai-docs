@@ -1,5 +1,5 @@
 ---
-id: Anime_Scheduling
+id: Anischedule
 title: Auto Message Schedule of Anime
 sidebar_label: Anime Scheduling
 ---

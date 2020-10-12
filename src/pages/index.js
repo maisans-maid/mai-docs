@@ -103,10 +103,10 @@ function Home() {
                 'button button--inlineline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/welcome')}>
+              to={useBaseUrl('docs/Getting Started/welcome')}>
               Get Started
             </Link>
-            
+
           </div>
         </div>
       </header>
