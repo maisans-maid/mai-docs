@@ -51,6 +51,12 @@ module.exports = {
           label: 'Invite Now',
           position: 'right',
         },
+        {
+          href: 'https://github.com/maisans-maid/Mai',
+          position: 'right',
+          className: 'header-github-link',
+          'aria-label': 'GitHub repository',
+        },
       ],
     },
     footer: {
