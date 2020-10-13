@@ -69,9 +69,10 @@ module.exports = {
             'Internal/Classes/PersonalizedCollection'
           ]
         },
-        {
+        
           'Functions',
           'Models',
+        {
           'Data Objects': [
             'Internal/Data Objects/client_config',
             'Internal/Data Objects/command_data',
