@@ -9,7 +9,7 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 
 
-<b> <font size='5'> [Mongoose](https://github.com/maisans-maid/Mai/tree/master/struct/Mongoose.js) </font>
+<b> <font size='5'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/Mongoose.js'> Mongoose </a> </font> </b>
 
 The constructor used to store the database connection information (to mongoDB) and it's settings.
 
@@ -23,36 +23,39 @@ new Mongoose(settings, password);
 |settings| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[Mongo Settings](https://mongoosejs.com/docs/api/connection.html#connection_Connection-openUri)>| No |  | The Mongo's Connection parameter (if Database is enabled) |
 |password| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The password for the URI Connection.
 
-<font size=4><b>Properties<b></font></br>
-[connector](#.connector) </br>
-[settings](#.settings) </br>
+<font size='4'><b>Properties</b></font><br></br>
+
+[connector](#.connector) <br></br>
+[settings](#.settings) <br></br>
 ***
 
-<font size=4><b>Methods<b></font></br>
-[init]() </br>
+<font size='4'><b>Methods</b></font><br></br>
+
+[init]() <br></br>
 ***
 
-<font size=4><b>Events<b></font></br>
-[connected](#connected) </br>
-[connecting](#connecting) </br>
-[disconnected](#disconnected) </br>
-[err](#err) </br>
-[reconnected](#reconnected) </br>
+<font size='4'><b>Events</b></font><br></br>
+
+[connected](#connected) <br></br>
+[connecting](#connecting) <br></br>
+[disconnected](#disconnected) <br></br>
+[err](#err) <br></br>
+[reconnected](#reconnected) <br></br>
 ***
 
 ### Properties
 #### .connector
-The connection URI used to connect to the database.</br>
+The connection URI used to connect to the database.<br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)*
 
 #### .settings
-The Mongo's connection parameter.</br>
+The Mongo's connection parameter.<br></br>
 *Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[Mongo Settings](https://mongoosejs.com/docs/api/connection.html#connection_Connection-openUri)>*
 
 ### Methods
 
 #### .init
-Attempts a connection to the database. </br>
+Attempts a connection to the database. <br></br>
 *Returns: [Void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)*
 
 ### Events

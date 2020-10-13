@@ -7,7 +7,7 @@ description: Message Count Data - Learn how to configure the MaiBot.
 image: https://mai-san.ml/img/mai%207.png
 
 ---
-<b> <font size='5'> [messageCountData](#) </font>
+<b> <font size='5'> messageCountData </font> </b>
 
 The counter for incoming and outgoing messages.
 

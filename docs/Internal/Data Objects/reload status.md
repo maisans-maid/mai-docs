@@ -7,7 +7,7 @@ description: Reload Status - Learn how to configure the MaiBot.
 image: https://mai-san.ml/img/mai%207.png
 
 ---
-<b> <font size='5'> [reloadStatus](#) </font>
+<b> <font size='5'> reloadStatus </font> </b>
 
 The status [CommandManager#reload](../Classes/Command%20Manager.md#.reload%28%29) returns.
 

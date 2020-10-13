@@ -7,7 +7,7 @@ description: Guild Data Update Model - Learn how to configure the MaiBot.
 image: https://mai-san.ml/img/mai%207.png
 ---
 
-<b> <font size='5'> [guildDataUpdateModel](#) </font>
+<b> <font size='5'> guildDataUpdateModel </font> </b>
 
 
 | Parameter | Type | Optional | Default | Description |
