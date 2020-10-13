@@ -70,8 +70,8 @@ module.exports = {
           ]
         },
         
-          'Functions',
-          'Models',
+          'Internal/Functions',
+          'Internal/Models',
         {
           'Data Objects': [
             'Internal/Data Objects/client_config',
