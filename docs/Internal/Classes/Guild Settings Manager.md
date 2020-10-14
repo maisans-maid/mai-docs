@@ -90,7 +90,7 @@ Removes guild setting profile based the passed ID. <br></br>
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
 |id| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )> | No | | The ID of the guild (serves as the key in the collection).
-|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data%20Objects/guild_data_model)>| No |  | The guild data to use (serves as the value in the collection) |
+|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data Objects/guild data model)>| No |  | The guild data to use (serves as the value in the collection) |
 
 Get a guild setting profile using the passed ID. <br></br>
 *Returns: ?[Collection](https://discord.js.org/#/docs/collection/master/class/Collectionr)<[GuildSettingProfile](GuildSettingProfile)>*
@@ -99,7 +99,7 @@ Get a guild setting profile using the passed ID. <br></br>
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
 |id| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )> | No | | The ID of the Guild to update.
-|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data%20Objects/guild_data_model)>| No |  | The guild data to update |
+|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data Objects/guild data model)>| No |  | The guild data to update |
 
 Update a specific guild setting profile using the passed data. <br></br>
 *Returns: ?[GuildSettingProfile](GuildSettingProfile)*
@@ -108,7 +108,7 @@ Update a specific guild setting profile using the passed data. <br></br>
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
 |id| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )> | No | | The ID of the Guild to update.
-|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataUpdateModel](../Data%20Objects/guild_data_update_model)>| No |  | The guild data to update |
+|data| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataUpdateModel](../Data Objects/guild data update model)>| No |  | The guild data to update |
 
 Update a specific property on a guild setting profile using the passed data. <br></br>
 Example: <br></br>
