@@ -73,6 +73,7 @@ query|[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 Gets a specific command. <br></br>
 *Returns: ?[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[CommandData](../Data Objects/command data)>*
 
+
 ### .reload( *query* )
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
@@ -80,3 +81,4 @@ query|[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference
 
 Reloads a specific command. <br></br>
 *Returns: ?[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[ReloadStatus](../Data Objects/reload_status)>*
+

@@ -22,6 +22,7 @@ new guildSettingProfile( guildDataModel );
 |:-:|:-:|:-:|:-:|:-:|
 |guildDataModel| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data Objects/guild_data_model)>| No |  | The guild data to register |
 
+
 <font size='4'><b>Properties</b></font><br></br>
 
 [goodbye](#goodbye) <br></br>
@@ -40,6 +41,7 @@ new guildSettingProfile( guildDataModel );
 The custom goodbye message setting for this guild.<br></br>
 *Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GoodbyeData](../Data Objects/goodbye_data)>*
 
+
 ### .id
 The ID of this guild.<br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )>*
@@ -56,6 +58,7 @@ The invite data for this guild.<br></br>
 The moderative roles for this guild <br></br>
 *Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GuildRoleData](../Data Objects/guild_role_data)>*
 
+
 ### .suggestChannel
 The ID of the set suggestChannel for this guild. <br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )>*
@@ -66,5 +69,4 @@ The custom welcome message setting for this guild.<br></br>
 
 ### .xp
 The xp settings for this guild. <br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data%
-Objects/guild_xp_settings)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data Objects/guild_xp_settings)>*
