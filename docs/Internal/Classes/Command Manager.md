@@ -59,7 +59,7 @@ Command registry, where command aliases and other command information necessary 
 ### .add( *commandData* )
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
-| commandData | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[commandData](../Data Objects/command_data)> | No | | The commandData to add |
+| commandData | [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[commandData](../Data Objects/command data)> | No | | The commandData to add |
 
 
 Registers and stores a command to the manager. <br></br>
@@ -71,7 +71,7 @@ Registers and stores a command to the manager. <br></br>
 query|[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<(Command#name\|Command#alias)>| No | | The command name or alias to get.
 
 Gets a specific command. <br></br>
-*Returns: ?[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[CommandData](../Data Objects/command_data)>*
+*Returns: ?[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[CommandData](../Data Objects/command data)>*
 
 ### .reload( *query* )
 | Parameter | Type | Optional | Default | Description |
