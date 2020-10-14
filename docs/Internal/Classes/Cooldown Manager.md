@@ -20,7 +20,7 @@ new CooldownManager(commandData);
 ```
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
-|[commandData](Data%20Objects/command_data)| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | No |  | The Command Data to register |
+|[commandData](../Data Objects/command data)| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | No |  | The Command Data to register |
 
 <font size='4'><b>Properties</b></font><br></br>
 
