@@ -55,10 +55,37 @@ module.exports = {
       label: 'Internal',
       collapsed: true,
       items: [
-        'Internal/Classes',
-        'Internal/Functions',
-        'Internal/Models',
-        'Internal/Data_Objects'
+        {
+          Classes: [
+            'Internal/Classes/Client',
+            'Internal/Classes/CommandGroup',
+            'Internal/Classes/CommandManager',
+            'Internal/Classes/CommandRegister',
+            'Internal/Classes/CooldownManager',
+            'Internal/Classes/GuildSettingProfile',
+            'Internal/Classes/GuildSettingsManager',
+            'Internal/Classes/Mongoose',
+            'Internal/Classes/Paginate',
+            'Internal/Classes/PersonalizedCollection'
+          ]
+        },
+          'Internal/Functions',
+          'Internal/Models',
+        {
+          'Data Objects': [
+            'Internal/Data Objects/client_config',
+            'Internal/Data Objects/command_data',
+            'Internal/Data Objects/cooldown_data',
+            'Internal/Data Objects/goodbye_data',
+            'Internal/Data Objects/guild_data_model',
+            'Internal/Data Objects/guild_data_update_model',
+            'Internal/Data Objects/guild_role_data',
+            'Internal/Data Objects/guild_xp_settings',
+            'Internal/Data Objects/message_count_data',
+            'Internal/Data Objects/reload_status',
+            'Internal/Data Objects/welcome_data'
+          ]
+        }
       ]
     }
   ],

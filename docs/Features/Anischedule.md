@@ -1,12 +1,13 @@
 ---
 id: Anischedule
 title: Auto Message Schedule of Anime
-sidebar_label: Anime Scheduling
+sidebar_label: Anischedule
 ---
 
 This is an implementation of [TehNut's](https://github.com/TehNut) work Anischedule. If you liked his work, you may contribute to him by going to the Anischedule Project.
- 
+
 <h2> A Special Mai Bot Feature that notifies you when a new anime episode has aired</h2><br></br>
+
 A Feature that uses the [AniList API](https://anilist.co/) to retrieve the airing schedule for configured anime and sends a message when a new episode has aired.
 <img src="https://camo.githubusercontent.com/c517cec8443ceaf08ef2b3c5870440d7e0b0a26a/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732383836363535303230373038363634322f3736313231343831323535333837313336302f756e6b6e6f776e2e706e67" />
 <br></br>
