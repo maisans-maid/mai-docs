@@ -41,7 +41,7 @@ If you love this work and wish to contribute in another manner, please do join o
 ### Credits
 "Give Credit when it's Due" - is a phrase that i love so much. Therefore, i will be mentioning here the projects/people that helped Mai grow as a powerful Discord Bot.
 
-- [Discord.js](https://github.com/discordjs/discord.js/) by [discordjs](https://github.com/discordjs/) - a powerful javascript library for interacting with the [Discord API](discord.com/developers/docs/intro).
+- [Discord.js](https://github.com/discordjs/discord.js/) by [discordjs](https://github.com/discordjs/) - a powerful javascript library for interacting with the [Discord API](https://discord.com/developers/docs/intro).
 - [AniList](https://github.com/TehNut/AniSchedule) by [TehNut](https://github.com/TehNut) - an anime announcer made purely on javascript that became the basis for one of Mai's main feature in the present.
 - [Komugari](https://github.com/Mitorisia/Komugari) by [Mitorisia](https://github.com/Mitorisia) - a discord bot written in [Discord.js@Commando](https://github.com/discordjs/Commando) that has been the basis for most of Mai's current commands.
 - The kind people on Discord.js Official, Coding Den, Programmer's Hangout, and Discord API servers that helped me debug errors on my code whenever I fail to solve it myself.
