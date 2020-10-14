@@ -78,7 +78,6 @@ All of the guild profiles the current MaiClient instance is handling, mapped by 
 
 ### .messages
 The number of message the bot has been sending and receiving for the current instance. <br></br>
-
 *Type: [MessageCountData](../Data Objects/message_count_data)*
 
 ### .uploadChannel
