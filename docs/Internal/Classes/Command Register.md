@@ -20,7 +20,8 @@ new CommandRegister(commandData);
 ```
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
-|commandData| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[commandData](../Data%20Objects/command_data)>| No |  | The Command Data to register |
+|commandData| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[commandData](../Data Objects/command_data)>| No |  | The Command Data to register |
+
 
 <font size='4'><b>Properties</b></font><br></br>
 
