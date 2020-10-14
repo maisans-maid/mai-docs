@@ -20,7 +20,7 @@ new guildSettingProfile( guildDataModel );
 ```
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
-|guildDataModel| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data%20Objects/guild_data_model)>| No |  | The guild data to register |
+|guildDataModel| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data Objects/guild_data_model)>| No |  | The guild data to register |
 
 <font size='4'><b>Properties</b></font><br></br>
 
@@ -38,7 +38,7 @@ new guildSettingProfile( guildDataModel );
 
 ### .goodbye
 The custom goodbye message setting for this guild.<br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GoodbyeData](../Data%20Objects/goodbye_data)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GoodbyeData](../Data Objects/goodbye_data)>*
 
 ### .id
 The ID of this guild.<br></br>
@@ -54,7 +54,7 @@ The invite data for this guild.<br></br>
 
 ### .roles
 The moderative roles for this guild <br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GuildRoleData](../Data%20Objects/guild_role_data)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GuildRoleData](../Data Objects/guild_role_data)>*
 
 ### .suggestChannel
 The ID of the set suggestChannel for this guild. <br></br>
@@ -62,8 +62,9 @@ The ID of the set suggestChannel for this guild. <br></br>
 
 ### .welcome
 The custom welcome message setting for this guild.<br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[WelcomeData](../Data%20Objects/welcome_data)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[WelcomeData](../Data Objects/welcome_data)>*
 
 ### .xp
 The xp settings for this guild. <br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data%20Objects/guild_xp_settings)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data%
+Objects/guild_xp_settings)>*

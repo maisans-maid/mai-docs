@@ -9,7 +9,7 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 <b> <font size='5'> reloadStatus </font> </b>
 
-The status [CommandManager#reload](../Classes/Command%20Manager#reload) returns.
+The status [CommandManager#reload](../Classes/Command Manager#reload) returns.
 
 | Parameter | Type | Description |
 |:-:|:-:|:-:|

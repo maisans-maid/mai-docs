@@ -66,7 +66,7 @@ All of the commands that the client is currently monitoring, mapped by the comma
 
 ### .config
 Special configurations made on Mai. Can be defined on [MaiClient#options#config](#). <br></br>
-*Type: [ClientConfig](../Data%20Objects/client_config)*
+*Type: [ClientConfig](../Data Objects/client_config)*
 
 ### .database
 The database the current MaiClient instance is using. Is nullable when [MaiClient#enableDatabase](#) is set to false. <br></br>
@@ -78,7 +78,7 @@ All of the guild profiles the current MaiClient instance is handling, mapped by 
 
 ### .messages
 The number of message the bot has been sending and receiving for the current instance. <br></br>
-*Type: [MessageCountData](../Data%20Objects/message_count_data)*
+*Type: [MessageCountData](../Data Objects/message_count_data)*
 
 ### .uploadChannel
 The channel ID from which the bot sends uploaded data (for eval and clear commands).<br></br>
