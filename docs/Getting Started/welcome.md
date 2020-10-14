@@ -4,7 +4,7 @@ title: Welcome to Docs
 hide_title: true
 sidebar_label: Home
 description: Mai is a simple yet powerful Discord Bot that aims to give discord users an enhanced "Discord Experience". Mai provides a variety of fun and informative commands that you can use with your friends.
-image: https://imgur.com/MDbn7lp
+image: https://i.imgur.com/MDbn7lp.png
 ---
 
 <img align='left' src={require('../assets/714919108042293248.png').default} />
