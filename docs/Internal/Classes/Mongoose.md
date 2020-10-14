@@ -9,11 +9,11 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 
 
-<b> <font size='5'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/Mongoose.js'> Mongoose </a> </font> </b>
+<b> <font size='6'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/Mongoose.js'> Mongoose </a> </font> </b>
 
 The constructor used to store the database connection information (to mongoDB) and it's settings.
 
-### Constructor
+## Constructor
 
 ```js
 new Mongoose(settings, password);
@@ -25,13 +25,13 @@ new Mongoose(settings, password);
 
 <font size='4'><b>Properties</b></font><br></br>
 
-[connector](#.connector) <br></br>
-[settings](#.settings) <br></br>
+[connector](#connector) <br></br>
+[settings](#settings) <br></br>
 ***
 
 <font size='4'><b>Methods</b></font><br></br>
 
-[init]() <br></br>
+[init](#init) <br></br>
 ***
 
 <font size='4'><b>Events</b></font><br></br>
@@ -43,38 +43,38 @@ new Mongoose(settings, password);
 [reconnected](#reconnected) <br></br>
 ***
 
-### Properties
-#### .connector
+## Properties
+### .connector
 The connection URI used to connect to the database.<br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)*
 
-#### .settings
+### .settings
 The Mongo's connection parameter.<br></br>
 *Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[Mongo Settings](https://mongoosejs.com/docs/api/connection.html#connection_Connection-openUri)>*
 
-### Methods
+## Methods
 
-#### .init
+### .init()
 Attempts a connection to the database. <br></br>
 *Returns: [Void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)*
 
-### Events
+## Events
 
-#### connected
+### connected
 Emitted whenever the client makes a successful connection to the database.
 
-#### connecting
+### connecting
 Emitted whenever the client attempts to connect to the database.
 
-#### disconnected
+### disconnected
 Emitted whenever the client disconnects from the database.
 
-#### err
+### err
 Emitted whenever the client encounters an error.
 
 |Parameter|Type|Description|
 |:-:|:-:|:-:|
 |error| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | The information regarding the error.
 
-#### reconnected
+### reconnected
 Emitted whenever the client attepmts to reconnect after a failed connection / disconnection.

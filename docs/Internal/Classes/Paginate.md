@@ -24,54 +24,55 @@ new Paginate(embeds);
 
 :::caution
 The embed order appears as they were added.
+:::
 
 <font size='4'><b>Properties</b></font><br></br>
 
-(getter)[currentIndex](#.currentIndex) <br></br>
-(getter)[currentPage](#.currentPage) <br></br>
-(getter)[firstPage](#.firstPage) <br></br>
-(getter)[lastPage](#.lastPage) <br></br>
-(getter)[size](#.size) <br></br>
+[currentIndex](#currentIndex) <br></br>
+[currentPage](#currentPage) <br></br>
+[firstPage](#firstPage) <br></br>
+[lastPage](#lastPage) <br></br>
+[size](#size) <br></br>
 ***
 
 <font size='4'><b>Methods</b></font><br></br>
 
-[add](#.add%28%20*MessageEmbed*%20%29) <br></br>
-[next](#.next%28%29) <br></br>
-[previous](#.previous%28%29) <br></br>
+[add](#add-messageembed-) <br></br>
+[next](#next) <br></br>
+[previous](#previous) <br></br>
 ***
 
-### Properties
-#### .currentIndex
+## Properties
+### .currentIndex
 The index of the MessageEmbed that is currently shown. <br></br>
 *Type: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*
 
-#### .currentPage
+### .currentPage
 The MessageEmbed that is currently shown. <br></br>
 *Type: [MessageEmbed](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)*
 
-#### .firstPage
+### .firstPage
 The first MessageEmbed that was added to this instance. <br></br>
 *Type: [MessageEmbed](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)*
 
-#### .lastPage
+### .lastPage
 The last MessageEmbed that was added to this instance. <br></br>
 *Type: [MessageEmbed](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)*
 
-#### .size
+### .size
 The number of Embeds this instance has. <br></br>
 *Type: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*
 
-### Methods
+## Methods
 
-#### .add( *MessageEmbed* )
+### .add( *MessageEmbed* )
 Adds a new MessageEmbed to this instance.<br></br>
 *Returns: [Paginate](#)*
 
-#### .next()
+### .next()
 Gets the next MessageEmbed from this instance and returns it.<br></br>
 *Returns: [MessageEmbed](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)*
 
-#### .previous()
+### .previous()
 Gets the previous MessageEmbed from this instance and returns it.<br></br>
 *Returns: [MessageEmbed](https://discord.js.org/#/docs/main/stable/class/MessageEmbed)*

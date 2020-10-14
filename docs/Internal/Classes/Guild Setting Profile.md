@@ -9,61 +9,61 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 
 
-<b> <font size='5'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/GuildSettingProfile.js'> GuildSettingProfile </a> </font> </b>
+<b> <font size='6'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/GuildSettingProfile.js'> GuildSettingProfile </a> </font> </b>
 
 A profile for a guild settings, where guild-specific settings are stored.
 
-### Constructor
+## Constructor
 
 ```js
 new guildSettingProfile( guildDataModel );
 ```
 | Parameter | Type | Optional | Default | Description |
 |:-:|:-:|:-:|:-:|:-:|
-|guildDataModel| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data%20Objects/guild%20data%20model.md)>| No |  | The guild data to register |
+|guildDataModel| [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildDataModel](../Data%20Objects/guild_data_model)>| No |  | The guild data to register |
 
 <font size='4'><b>Properties</b></font><br></br>
 
-[goodbye](#.goodbye) <br></br>
-[id](#.id) <br></br>
-[isEconomyActive](#.isEconomyActive) <br></br>
-[invite](#.invite) <br></br>
-[roles](#.roles) <br></br>
-[suggestChannel](#.suggestChannel) <br></br>
-[welcome](#.welcome) <br></br>
-[xp](#.xp) <br></br>
+[goodbye](#goodbye) <br></br>
+[id](#id) <br></br>
+[isEconomyActive](#isEconomyActive) <br></br>
+[invite](#invite) <br></br>
+[roles](#roles) <br></br>
+[suggestChannel](#suggestChannel) <br></br>
+[welcome](#welcome) <br></br>
+[xp](#xp) <br></br>
 ***
 
-### Properties
+## Properties
 
-#### .goodbye
+### .goodbye
 The custom goodbye message setting for this guild.<br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GoodbyeData](../Data%20Objects/goodbye%20data.md)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GoodbyeData](../Data%20Objects/goodbye_data)>*
 
-#### .id
+### .id
 The ID of this guild.<br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )>*
 
-#### .isEconomyActive
+### .isEconomyActive
 Whether the server is subscribed to the economy feature.<br></br>
 *Type: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)*
 
-#### .invite
+### .invite
 The invite data for this guild.<br></br>
 *Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[InviteData](#)>*
 
-#### .roles
+### .roles
 The moderative roles for this guild <br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GuildRoleData](../Data%20Objects/guild%20role%20data.md)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[GuildRoleData](../Data%20Objects/guild_role_data)>*
 
-#### .suggestChannel
+### .suggestChannel
 The ID of the set suggestChannel for this guild. <br></br>
 *Type: [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )>*
 
-#### .welcome
+### .welcome
 The custom welcome message setting for this guild.<br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[WelcomeData](../Data%20Objects/welcome%20data.md)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[WelcomeData](../Data%20Objects/welcome_data)>*
 
-#### .xp
+### .xp
 The xp settings for this guild. <br></br>
-*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data%20Objects/guild%20xp%20settings.md)>*
+*Type: [Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)<[guildXpSettings](../Data%20Objects/guild_xp_settings)>*

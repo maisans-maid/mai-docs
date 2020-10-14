@@ -69,13 +69,13 @@ module.exports = {
             'Internal/Classes/PersonalizedCollection'
           ]
         },
-        
           'Internal/Functions',
           'Internal/Models',
         {
           'Data Objects': [
             'Internal/Data Objects/client_config',
             'Internal/Data Objects/command_data',
+            'Internal/Data Objects/cooldown_data',
             'Internal/Data Objects/goodbye_data',
             'Internal/Data Objects/guild_data_model',
             'Internal/Data Objects/guild_data_update_model',

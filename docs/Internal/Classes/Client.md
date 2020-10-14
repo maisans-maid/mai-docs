@@ -9,12 +9,12 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 
 
-<b> <font size='5'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/Client.js'> MaiClient </a> </font> </b>
-<font size='3'> extends <b> <a href='https://discord.js.org/#/docs/main/stable/Class/Client'> Client </a> </b> </font>
+<b> <font size='6'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/Client.js'> MaiClient </a> </font> </b>
+<font size='4'> extends <b> <a href='https://discord.js.org/#/docs/main/stable/Class/Client'> Client </a> </b> </font>
 
 The main hub for interacting with the Discord API, extended from the discord.js default client constructor.
 
-### Constructor
+## Constructor
 
 ```js
 new MaiClient(options);
@@ -36,56 +36,56 @@ new MaiClient(options);
 
 <font size='4'><b>Properties</b></font><br></br>
 
-[bootTimeStart](#.bootTimeStart) <br></br>
-[collections](#.collections) <br></br>
-[commands](#.commands) <br></br>
-[config](#.config) <br></br>
-[database](#.database) <br></br>
-[guildsettings](#.guildsettings) <br></br>
-[messages](#.messages) <br></br>
-[uploadChannel](#.uploadchannel) <br></br>
+[bootTimeStart](#boottimestart) <br />
+[collections](#collections) <br />
+[commands](#commands) <br />
+[config](#config) <br />
+[database](#database) <br />
+[guildsettings](#guildsettings) <br />
+[messages](#messages) <br />
+[uploadChannel](#uploadchannel) <br />
 ***
 
 <font size='4'><b>Methods</b></font><br></br>
 
-[connect](#.connect%28%29)
+[connect](#.connect)
 ***
 
-### Properties
-#### .bootTimeStart
+## Properties
+### .bootTimeStart
 The time in UNIX timestamp the bot was initiated. <br></br>
 *Type: [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)*
 
-#### .collections
+### .collections
 All the custom collections the user has defined on [MaiClient#options#collections](#) - mapped by the collection name, if there is any.<br></br>
-*Type: [PersonalizedCollections](Personalized%20Collection.md)*
+*Type: [PersonalizedCollections](PersonalizedCollection)*
 
-#### .commands
+### .commands
 All of the commands that the client is currently monitoring, mapped by the command name. <br></br>
-*Type: [CommandManager](Command%20Manager.md)*
+*Type: [CommandManager](CommandManager)*
 
-#### .config
+### .config
 Special configurations made on Mai. Can be defined on [MaiClient#options#config](#). <br></br>
-*Type: [ClientConfig](../Data%20Objects/client%20config.md)*
+*Type: [ClientConfig](../Data%20Objects/client_config)*
 
-#### .database
+### .database
 The database the current MaiClient instance is using. Is nullable when [MaiClient#enableDatabase](#) is set to false. <br></br>
-*Type: ?[Mongoose](Mongoose.md)*
+*Type: ?[Mongoose](Mongoose)*
 
-#### .guildsettings
+### .guildsettings
 All of the guild profiles the current MaiClient instance is handling, mapped by their IDs.<br></br>
-*Type: [GuildSettingsManager](Guild%20Settings%20Manager.md)*
+*Type: [GuildSettingsManager](GuildSettingsManager)*
 
-#### .messages
+### .messages
 The number of message the bot has been sending and receiving for the current instance. <br></br>
-*Type: [MessageCountData](../Data%20Objects/message%20count%20data.md)*
+*Type: [MessageCountData](../Data%20Objects/message_count_data)*
 
-#### .uploadChannel
+### .uploadChannel
 The channel ID from which the bot sends uploaded data (for eval and clear commands).<br></br>
 *Type: ?[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)<[Snowflake](https://discord.js.org/#/docs/main/stable/typedef/Snowflake )>*
 
-### Methods
+## Methods
 
-#### .connect()
+### .connect()
 Logs in to discord and attempts to connect on a database (if enabled). <br></br>
 *Returns: [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)*

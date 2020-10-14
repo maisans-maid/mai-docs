@@ -9,11 +9,11 @@ image: https://mai-san.ml/img/mai%207.png
 ---
 
 
-<b> <font size='5'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/PersonalizedCollection.js'> PersonalizedCollection </a> </font> </b>
+<b> <font size='6'> <a href='https://github.com/maisans-maid/Mai/tree/master/struct/PersonalizedCollection.js'> PersonalizedCollection </a> </font> </b>
 
 A tool to store and manage your own custom collections for various commands easier.
 
-### Constructor
+## Constructor
 
 ```js
 new PersonalizedCollection(collections);
@@ -24,20 +24,20 @@ new PersonalizedCollection(collections);
 
 <font size='4'><b>Methods</b></font><br></br>
 
-[add](#.add%28%20*collection*%20%29) <br></br>
-[deleteIn](#.deleteIn%28%20%5B%20*collection*%20%5D,%20%5B%20*key*%20%5D%20%29) <br></br>
-[exists](#.exists%28%20%5B%20*collection*%20%5D,%20%5B%20*key*%20%5D%20%29) <br></br>
-[findFrom](#.findFrom%28%20%5B%20*collection*%20%5D,%20%5B%20*fn*%20%5D%20%29) <br></br>
-[getFirst](#.getFirst%28%20*collection*%20%29) <br></br>
-[getFrom](#getFrom%28%20%5B%20*collection*%20%5D,%20%5B%20*key*%20%5D%20%29) <br></br>
-[getLast](#getLast%28%20*collection*%20%29) <br></br>
-[getRandom](#getRandom%28%20%5B%20*collection*%20%5D,%20%5B%20*value*%20%5D%20%29) <br></br>
-[setTo](#.setTo%28%20%5B%20*collection*%20%5D,%20%5B%20*key*%20%5D,%20%5B%20*value*%20%5D%20%29) <br></br>
+[add](#add-collection-) <br></br>
+[deleteIn](#deletein--collection---key--) <br></br>
+[exists](#exists--collection---key--) <br></br>
+[findFrom](#findfrom--collection---fn--) <br></br>
+[getFirst](#getfirst-collection-) <br></br>
+[getFrom](#getfrom--collection---key--) <br></br>
+[getLast](#getlast-collection-) <br></br>
+[getRandom](#getrandom--collection---value--) <br></br>
+[setTo](#setto--collection---key---value--) <br></br>
 ***
 
-### Methods
+## Methods
 
-#### .add( *collection* )
+### .add( *collection* )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the new collection to add|
@@ -45,7 +45,7 @@ new PersonalizedCollection(collections);
 Adds a new collection to this instance.<br></br>
 *Returns: [PersonalizedCollection](#)*
 
-#### .deleteIn( [ *collection* ], [ *key* ] )
+### .deleteIn( [ *collection* ], [ *key* ] )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the new collection to search for the key|
@@ -55,7 +55,7 @@ Deletes a key and its associated value (element) from the collection. <br></br>
 *Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)*<br></br>
 `true` if the element is removed, `false` if otherwise.
 
-#### .exists( [ *collection* ], [ *key* ] )
+### .exists( [ *collection* ], [ *key* ] )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the new collection to check.|
@@ -65,7 +65,7 @@ Checks if the key exists in the provided collection.<br></br>
 *Returns: [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)*<br></br>
 `true` if the collection and key exists, `false` if otherwise.
 
-#### .findFrom( [ *collection* ], [ *fn* ] )
+### .findFrom( [ *collection* ], [ *fn* ] )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the new collection to check.|
@@ -74,7 +74,7 @@ Checks if the key exists in the provided collection.<br></br>
 Finds a specific element from the provided collection using the passed find function. <br></br>
 *Returns:  \* or undefined*
 
-#### .getFirst( *collection* )
+### .getFirst( *collection* )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the collection to check.|
@@ -82,7 +82,7 @@ Finds a specific element from the provided collection using the passed find func
 Gets the first value from the collection.<br></br>
 *Returns:  \* or undefined*
 
-#### .getFrom( [ *collection* ], [ *key* ] )
+### .getFrom( [ *collection* ], [ *key* ] )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the collection to check.|
@@ -91,7 +91,7 @@ Gets the first value from the collection.<br></br>
 Gets a specific element by the provided key in the given collection.<br></br>
 *Returns:  \* or undefined*
 
-#### .getLast( *collection* )
+### .getLast( *collection* )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the collection to check.|
@@ -99,7 +99,7 @@ Gets a specific element by the provided key in the given collection.<br></br>
 Gets the last value from the collection.<br></br>
 *Returns:  \* or undefined*
 
-#### .getRandom( [ *collection* ], [ *value* ] )
+### .getRandom( [ *collection* ], [ *value* ] )
 |Parameter|Type|Optional|Default|Description|
 |:-:|:-:|:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | No | | The name of the collection to check.|
@@ -108,7 +108,7 @@ Gets the last value from the collection.<br></br>
 Gets (a) random value(s) from the collection.<br></br>
 *Returns:  \* or [Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)*
 
-#### .setTo( [ *collection* ], [ *key* ], [ *value* ] )
+### .setTo( [ *collection* ], [ *key* ], [ *value* ] )
 |Parameter|Type|Description|
 |:-:|:-:|:-:|
 |collection| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String) | The name of the collection to register the element to.|
