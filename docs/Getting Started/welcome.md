@@ -6,7 +6,7 @@ sidebar_label: Home
 
 ---
 
-<img align='left' src='../assets/714919108042293248.png'/>
+<img align='left' src={require('../assets/714919108042293248.png').default} />
 
 ## &ensp;Welcome to [Mai](https://invite.mai-san.ml/) Docs
 ###### &ensp;&ensp;A multifunctional Discord Bot, written in Discord.js V12.3.1~
