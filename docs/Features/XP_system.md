@@ -44,4 +44,4 @@ Anyone on the server with the `ADMINISTRATOR` permissions can reset all of user'
 ---
 
 ### Data Management
-Handling of Data from this feature is discussed on [Data Privacy](../Data%20Privacy/Handling_Data )
+Handling of Data from this feature is discussed on [Data Privacy](../Data Privacy/Handling_Data )
