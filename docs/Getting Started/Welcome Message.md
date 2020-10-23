@@ -137,6 +137,26 @@ and test...
 
 
 #### How to remove values from the set Embed?
+Embed are fancy and all, you can just edit the values of the embeds via the previous method. But what if you want to remove them completely? It's just as simple as using blank option parameters to remove them. Consider the following example:
+```
+m!setwelcomemsg embed=set -description:[ ] -footer=text:[ ] -title:[ ]
+
+//removes the description, footer text, and the title from the embed
+```
+<img src={require('../assets/welcome-embed-remove.png').default} /> <br />
+<font size='2' color='#c75a83'>Removing the description, footer text, and the title.</font> <br /> <br />
+
+Now let's test how it turned out.
+
+<img src={require('../assets/welcome-embed-remove-test.png').default} /> <br />
+<font size='2' color='#c75a83'>All other properties except the color and the thumbnail have been successfully removed.</font> <br /> <br />
+
+:::info What to look out for when removing fields
+* You cannot remove embed fields that require URL to work, like thumbnail for instance. To have them removed from the embed, set a non-image-resolving URL when setting it - like `-thumbnail:[https://google.com]` for example. (Google doesn't resolve to image.)
+* You cannot remove the color of the embed, if you want to set it to the default one (black), just use the `#000000` hex.
+* Take note of the spacing between the space brackets, bot will treat them as false values when you put them close together `[]`, add a single space beween them `[ ]`.
+:::
+
 
 ### Selecting which custom message to use (Default, Message, Embed)
 You can select which method to use (assuming you've set all of them) for the member joins. For Example, if you want to use the default custom message, just type `m!setwelcomemsg default=true`, and this will set all the greeter message in your server to default until you change it again to other method. If you've set a custom message, you may use `m!setwelcome msg=true`, same goes for embed (`m!setwelcome embed=true`). Note that the bot will reject your request if you haven't set anything for the selected method.
