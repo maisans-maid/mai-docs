@@ -5,25 +5,25 @@ hide_title: true
 sidebar_label: Home
 description: Mai is a simple yet powerful Discord Bot that aims to give discord users an enhanced "Discord Experience". Mai provides a variety of fun and informative commands that you can use with your friends.
 image: https://i.imgur.com/MDbn7lp.png
+hide_table_of_contents: true
 ---
 
 <img align='left' src={require('../assets/714919108042293248.png').default} />
 
 ## &ensp;Welcome to [Mai](https://invite.mai-san.ml/) Docs
-###### &ensp;&ensp;A multifunctional Discord Bot, written in Discord.js V12.3.1~
-<br />
-
+###### &ensp;&ensp;A multifunctional **Discord Bot**, written in **Discord.js V12.3.1**~
 ---
+<br />
 
 ### Why should you invite Mai?
 Mai is a simple yet powerful Discord Bot that aims to give discord users an enhanced "Discord Experience". Mai provides a variety of fun and informative commands that you can use with your friends.
 
 Mai can:
-- Spice up chat environment with the use of roleplay/action commands such as pat, hug, slap, and more!
-- Search through the internet for information resources through various functions such as anime information lookup (series, characters, and even seiyuus!), games (via steam), or even time on some cities.
-- Ease the work of moderators by managing the server through various single commands.
-- Provide Airing Information automagically, implement user experience system, as well as server-based economy system.
-- Acquire totally random fun facts from various sources Mai has access to.
+<font size='3'><img src={require('../assets/check_mark.png').default} height='15'/> Spice up chat environment with the use of roleplay/action commands such as pat, hug, slap, and more! </font> <br />
+<font size='3'><img src={require('../assets/check_mark.png').default} height='15'/>  Search through the internet for information resources through various functions such as anime information lookup (series, characters, and even seiyuus!), games (via steam), or even time on some cities. </font> <br />
+<font size='3'><img src={require('../assets/check_mark.png').default} height='15'/>  Ease the work of moderators by managing the server through various single commands. </font> <br />
+<font size='3'><img src={require('../assets/check_mark.png').default} height='15'/>  Provide Airing Information automagically, implement user experience system, as well as server-based economy system. </font> <br />
+<font size='3'><img src={require('../assets/check_mark.png').default} height='15'/>  Acquire totally random fun facts from various sources Mai has access to. </font> <br />
 
 
 ### Invite
@@ -63,16 +63,17 @@ copies of the Software, and to permit persons to whom the Software is furnished 
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-#### Disclaimer
-> *Mai's developer is not, in any way, affiliated with Mai Sakurajima's creator, nor the production team that brought the anime together, and is not, in any way, benefit financially from the sales the series produces.*
->
-> *Mai Sakurajima and "Seishun Buta Yarō wa Bunny Girl Senpai no yume wo Minai" are all owned by Aniplex, Cloverworks, Keeji Mizoguchi and Hajime Kamoshida.*
->
->*Please support the official releases.*
->
-> - *[アニメ](https://ao-buta.com/) (Japanese)*
-> - *[Anime](http://rascaldoesnotdream.com/) (English)*
-> - *[ライトノベル](https://dengekibunko.jp/product/aobuta/312044500000.html) (Japanese)*
-> - *[Light Novel](https://yenpress.com/9781975399351/rascal-does-not-dream-of-bunny-girl-senpai-light-novel/) (English)*
-> - *[Manga (Kadokawa)](https://www.kadokawa.co.jp/product/321607000727/) (Japanese)*
-> - *[Twitter](https://twitter.com/aobuta_anime) (Japanese)*
+### Disclaimer
+:::danger *Mai's developer is not, in any way, affiliated with Mai Sakurajima's creator, nor the production team that brought the anime together, and is not, in any way, benefit financially from the sales the series produces.*
+
+*Mai Sakurajima and "Seishun Buta Yarō wa Bunny Girl Senpai no yume wo Minai" are all owned by Aniplex, Cloverworks, Keeji Mizoguchi and Hajime Kamoshida.*
+
+*Please support the official releases.*
+
+ - *[アニメ](https://ao-buta.com/) (Japanese)*
+ - *[Anime](http://rascaldoesnotdream.com/) (English)*
+ - *[ライトノベル](https://dengekibunko.jp/product/aobuta/312044500000.html) (Japanese)*
+ - *[Light Novel](https://yenpress.com/9781975399351/rascal-does-not-dream-of-bunny-girl-senpai-light-novel/) (English)*
+ - *[Manga (Kadokawa)](https://www.kadokawa.co.jp/product/321607000727/) (Japanese)*
+ - *[Twitter](https://twitter.com/aobuta_anime) (Japanese)*
+:::

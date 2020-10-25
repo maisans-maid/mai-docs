@@ -5,31 +5,38 @@ hide_title: true
 sidebar_label: Anischedule
 ---
 
-This is an implementation of [TehNut's](https://github.com/TehNut) work Anischedule. If you liked his work, you may contribute to him by going to the Anischedule Project.
+> This is an implementation of [TehNut's](https://github.com/TehNut) work Anischedule. If you liked his work, you may contribute to him by going to the Anischedule Project.
 
-<h2> A Special Mai Bot Feature that notifies you when a new anime episode has aired</h2><br></br>
+<h2> A Special Mai Bot Feature that notifies you when a new anime episode has aired</h2><br />
 
-A Feature that uses the [AniList API](https://anilist.co/) to retrieve the airing schedule for configured anime and sends a message when a new episode has aired.
+A feature that uses the [AniList API](https://anilist.co/) to retrieve the airing schedule for configured anime and sends a message when a new episode has aired.
 
-<img src={require('../assets/anisched-sample.png').default} />
+<img align='middle' src={require('../assets/anisched-sample.png').default} />
 <br />
 
 ### Preparing the bot and your server
 :::caution
 Before you start everything, make sure Mai has the necessary Permissions `SEND_MESSAGES`, `EMBED_LINKS` so that announcements are sent on a set channel
 :::
-:::info
-If you are self-hosting the bot, make sure you set the `client#enableDatabase` to true and that you have a valid Mongo DB account and you have set it in `client#mongoPassword` in the client constructor.<br />
-The whole Anischedule Feature will not work without it. This is because the bot uses the MongoDB as it's primary database -> where the anime schedules are stored per server.
-:::
+<br /><br />
+
 **1. Use the ``setanischedch`` command and pass in the desired ``announcement channel`` as the first parameter.**<br></br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Usage: ``m!setanischedch [text-based-channel]``<br></br>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Example: ``m!setanischedch #anime-airing``
+> Usage: ``m!setanischedch [text-based-channel]``<br></br>
+> Example: ``m!setanischedch #anime-airing``
+
 <img src="https://camo.githubusercontent.com/f347a48a077daeacaf079dc22376945447efaa8b/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732383836363535303230373038363634322f3736313437393732373731333438343833302f756e6b6e6f776e2e706e67" />
 <br/><br/>
 
+:::info Are you self-hosting?
+If you are self-hosting the bot, make sure you set the `client#enableDatabase` to true and that you have a valid Mongo DB account and you have set it in `client#mongoPassword` in the client constructor.<br />
+The whole Anischedule Feature will not work without it. This is because the bot uses the MongoDB as it's primary database -> where the anime schedules are stored per server.
+:::
+<br /><br />
+
 **2. Search for currently airing anime you wanted to keep track of, grab the link, use the ``m!watch`` command and pass the copied URL as the parameter.**<br/>
-&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Usage: ``m!watch [anime URL]``<br/>
+> Usage: ``m!watch [anime URL]``<br/>
+> Example: `m!watch https://nyanimelist.net/anime/41006/Higurashi_no_Naku_Koro_ni_2020`
+
 <img src="https://camo.githubusercontent.com/1c6fb0b672c1d5db051723207d604071d711ac9c/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3732383836363535303230373038363634322f3736313438313130363634353731323934362f756e6b6e6f776e2e706e67"/><br/><br/>
 
 :::note

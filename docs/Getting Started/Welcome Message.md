@@ -1,16 +1,15 @@
 ---
 id: custom_welcome_message
-title: Setting up your server's Member Greeter
+title: Member Greeter
 sidebar_label: Member Greeter
-hide_table_of_contents: true
 
 ---
 
 See those fancy messages from another server when a new member joins their server? Well yeah, no worries, with **Mai** Bot, you can have your own custom <font color='#c75a83'>Member Greeter</font> now! And oh, don't worry, you can set up your custom greeter with **Mai** in a matter of minutes, and we will cover all the capabilities for full control customization of what I call "Mai's Member Greeter". Let's get started!
 
-### Enabling the Server's <font color='#c75a83'>Member Greeter</font>
+### Enabling the Server's Member Greeter
 #### 1. Toggling the Member Greeter On
-The first thing we're going to do is to enable the server's member greeter. When Mai joins on a new server, all the fancy stuffs that Mai do, including **Member Greeter**, is disabled by default. Which is why you have to enable the server's member greeter first. You can enable this by typing the command `m!welcometoggle` and tada! You're set.. No.. But you've already made it the first step!
+The first thing we're going to do is to enable the server's member greeter. When Mai joins on a new server, all the fancy stuffs that Mai do, including **Member Greeter**, is disabled by default, which is why you have to enable the server's member greeter first. You can enable this by typing the command `m!welcometoggle` and tada! You're set.. No.. But you've already made it the first step!
 
 <img src={require('../assets/welcometoggle-on.png').default} />
 <br /><font size='2' color='#c75a83'> Mai confirming the enabling of this Feature! Way to go!</font><br /><br />
