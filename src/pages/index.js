@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/mai 5.png',
     description: (
       <>
-Supplied with action commands such as pat, kiss, and hug to spice up the chat environment more!
+      Supplied with action commands such as pat, kiss, and hug to spice up the chat environment more!
       </>
     ),
   },
@@ -57,7 +57,7 @@ Supplied with action commands such as pat, kiss, and hug to spice up the chat en
     imageUrl: 'img/mai 2.png',
     description: (
       <>
-     Wow! I am running out of slot and there are still many commands left to discuss. Anyway, just go to my repo to view all commands!
+     Wow! I am running out of slot and there are still many commands left to discuss. Anyway, just check all my commands in this documentation!
       </>
     ),
   },
@@ -89,6 +89,10 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+          <br /><br />
           <div className={styles.buttons}>
           <Link
               className={clsx(
@@ -96,7 +100,7 @@ function Home() {
                 styles.getStarted,
               )}
               href={'https://support.mai-san.ml/'}>
-              Join Support Server
+              Support Server
             </Link>
             <Link
               className={clsx(

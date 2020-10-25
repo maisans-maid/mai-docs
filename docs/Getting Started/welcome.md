@@ -11,6 +11,13 @@ hide_table_of_contents: true
 <img align='left' src={require('../assets/714919108042293248.png').default} />
 
 ## &ensp;Welcome to [Mai](https://invite.mai-san.ml/) Docs
+&ensp;&ensp;
+[![Online](https://img.shields.io/discord/703922441768009731?color=%237289DA&label=Support&logo=discord&logoColor=white)](https://support.mai-san.ml/)
+[![Current Version](https://img.shields.io/github/package-json/v/maisans-maid/mai/master?color=pink&label=Current%20Version)](https://github.com/maisans-maid/Mai)
+[![Node](https://img.shields.io/static/v1?label=Node.js&message=12.19.0&color=success&logo=Node.js)](https://nodejs.org/dist/latest-v12.x/)
+[![DJS](https://img.shields.io/static/v1?label=DiscordJS&message=12.3.1&color=blue&logo=github)](https://discord.js.org/)
+[![License](https://img.shields.io/github/license/maisans-maid/Mai)](https://github.com/maisans-maid/Mai/blob/master/LICENSE)
+[![Dependencies Status](https://david-dm.org/maisans-maid/Mai/status.svg)](https://david-dm.org/maisans-maid/Mai)
 ###### &ensp;&ensp;A multifunctional **Discord Bot**, written in **Discord.js V12.3.1**~
 ---
 <br />
@@ -27,7 +34,7 @@ Mai can:
 
 
 ### Invite
-You may invite Mai through https://invite.mai-san.ml.
+You may invite Mai through https://invite.mai-san.ml/.
 
 ### Support
 If you have questions regarding the bot and it's use, please do join our support server at https://support.mai-san.ml/.
