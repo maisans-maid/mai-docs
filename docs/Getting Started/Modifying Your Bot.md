@@ -23,7 +23,7 @@ const client = new Client({
 <br/><br/>
 
 ## Hosting Client Settings
-Because Mai bot is not designed to be hosted by others, default values for the [Client Constructor](../Internal/Classes/Client) are not set, which means you need to set them all individually, or the bot will fail to start.
+Because Mai bot is not designed to be hosted by others, default values for the Client Constructor are not set, which means you need to set them all individually, or the bot will fail to start.
 
 
 ```js
@@ -58,7 +58,6 @@ const client = new Client({
 })
 ```
 
-Check all the available properties [here](../Internal/Classes/Client)
 
 <br/><br/>
 

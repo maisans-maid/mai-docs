@@ -3,8 +3,9 @@ id: Economy
 title: Economy System
 sidebar_label: Economy System
 ---
-Mai's economy system is still young and in need for more ideas for proper economy implementation. Mai's Economy System is Server-based and does not reflect your earnings in another server. Transferring coins from server to server is also not possible at this moment (though there are also no plans to implement this kind of feature soon)<br/>
-Economy is not `on` by default. A server administrator has to toggle this to enable the economy if the administrator wants it.
+* Mai's economy system is still young and in need for more ideas for proper economy implementation.
+* Mai's Economy System is Server-based and does not reflect your earnings in another server. Transferring coins from server to server is also not possible at this moment (though there are also no plans to implement this kind of feature soon)<br/>
+* Economy is not `on` by default. A server administrator has to toggle this to enable the economy if the administrator wants it.
 
 ## Mai Economy currently Features
 <li><a href="#earning">Earning Currency Points</a></li>
@@ -22,9 +23,9 @@ Earning Currency from this bot isn't that hard, but the way to earn it isn't a l
 
 |  Source  |  Cooldown  |    Value    |
 |----------|------------|-------------|
-`beg` | 1 - 3 hrs (Random) | 100 - 300 coins (Random) | 
-`bet` | see [Betting](#betting) | see [Betting](#betting) | 
-`find`| 1 - 3 hrs (Random) | 100 - 300 coins (Random) | 
+`beg` | 1 - 3 hrs (Random) | 100 - 300 coins (Random) |
+`bet` | see [Betting](#betting) | see [Betting](#betting) |
+`find`| 1 - 3 hrs (Random) | 100 - 300 coins (Random) |
 `daily` | 24 hours (streak is lost within 48 hours) | 550 coins (Base) <br/> + 50 coins per streak |
 
 Before you are able to use these commands properly, you will have to need a <a href="#wallet">wallet</a>. You will also need to have a <a href="#banking">bank</a> to prevent currency <a href="#overflow">overflow</a>

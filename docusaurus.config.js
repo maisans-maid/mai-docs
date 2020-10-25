@@ -27,7 +27,7 @@ module.exports = {
 
  navbar: {
        hideOnScroll: true,
-      title: 'Mai - A discord bot',
+      title: 'Mai',
       logo: {
         alt: 'Mai',
         src: 'https://maisans-maid.github.io/mai.moe/images/main_profile.png',

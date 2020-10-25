@@ -1,14 +1,10 @@
 ---
-id: setting_up_your_bot
-title: Setting up your Bot
+id: self_hosting
+title: Self Hosting
 hide_title: true
-sidebar_label: Setting up your Bot
+sidebar_label: Self Hosting
 hide_table_of_contents: true
 ---
-
-## Setting up your Bot
-
-Mai Bot isn't designed to be self-hosted, but here are the details you need to know in order to run the bot properly.
 
 :::caution
 To use discord.js (Mai Bot uses Discord.js to interact with the Discord API), you'll need to install Node.js.
@@ -16,7 +12,7 @@ If you do have Node installed, but have an older version (i.e. anything below 12
 :::
 <br/>
 
-### 1. Get the project Locally <br/>
+## 1. Get the project Locally
 Run the following commands to get the project locally
 ```
 git clone https://github.com/maisans-maid/Mai.git # or clone your own fork
@@ -27,7 +23,7 @@ npm build
 
 <br/>
 
-### 2. Create a new .env file in the root directory of the project with the following properties:
+## 2. Create a new .env file in the root directory of the project with the following properties:
 ```
 TOKEN=
 MONGO=
@@ -38,11 +34,8 @@ This is also present on .env_example file on the root directory of the project <
 
 <br/>
 
-### 3. Start the bot
+# 3. Start the bot
 You can start the bot by typing in `npm start` in the commandline.<br/><br/>
 
-:::tip
-Bot's prefix defaults to `m!`, which you can change later on when you start modifying it. Try the basic commands for the bot and see how it works.
-::: <br />
 
 ---
