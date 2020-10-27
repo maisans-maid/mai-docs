@@ -89,9 +89,9 @@ function Home() {
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
-          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub"></iframe>
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=star&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub" />
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=watch&count=true&v=2" frameborder="0" scrolling="0" width="100" height="20" title="GitHub" />
+          <iframe src="https://ghbtns.com/github-btn.html?user=maisans-maid&repo=Mai&type=fork&count=true" frameborder="0" scrolling="0" width="100" height="20" title="GitHub" />
           <br /><br />
           <div className={styles.buttons}>
           <Link
