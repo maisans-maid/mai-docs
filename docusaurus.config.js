@@ -39,13 +39,18 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
- {
+        {
           to: "About_Me",
           activeBasePath: '/About_Me',
           label: 'About Me',
           position: 'left',
         },
-
+        {
+          to: "Changelogs",
+          activeBasePath: '/Changelogs',
+          label: "Changelogs",
+          position: 'left'
+        },
         {
           href: 'https://discord.com/oauth2/authorize?client_id=702074452317307061&scope=bot&permissions=1043721303',
           label: 'Invite Now',
