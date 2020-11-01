@@ -183,7 +183,7 @@ Command | Description | Archive Reason
 
 
 #### Removed
-Removed Commands are [v2.4.0](https://github.com/maisans-maid/Mai/tree/2.4.0) commands that haven't made its way to the 3.0.0 (latest) update because of some various reasons. They are either WIP (Work-in-Progress) or will be entirely forgotten.
+Removed Commands are [v2.4.0](https://github.com/maisans-maid/Mai/tree/2.4.0) commands that haven't made its way to the 3.0.0 update because of some various reasons. They are either WIP (Work-in-Progress) or will be entirely forgotten.
 
 Command | category | Removal Reason | Status |
 --------|-------------|----------------|:-:|

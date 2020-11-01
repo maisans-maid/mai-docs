@@ -10,8 +10,16 @@ hide_table_of_contents: true
 
 <br /><br />
 
+### v3.0.2 (Patch)
+<font size="2" color="grey">November 02, 2020</font><br /><br />
 
-### v3.0.1 (Fixes)
+- **Fixes**
+  - Catch Error on VoteManager causing insanity in bug reporter.
+  - Fix seiyuu command not executing due to a typo.
+
+---
+
+### v3.0.1 (Patch)
 <font size="2" color="grey">October 29, 2020</font><br /><br />
 
 - **Redesigns**
