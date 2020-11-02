@@ -46,6 +46,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: "Submissions",
+          activeBasePath: '/Submissions',
+          label: "Submissions",
+          position: 'left'
+        },
+        {
           to: "Changelogs",
           activeBasePath: '/Changelogs',
           label: "Changelogs",
