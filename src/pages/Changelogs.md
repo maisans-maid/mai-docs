@@ -10,6 +10,28 @@ hide_table_of_contents: true
 
 <br /><br />
 
+### v3.0.3 (Patch)
+<font size="2" color="grey">November 06, 2020</font><br /><br />
+
+**Redesigns**
+  - Redesigned XP Leaderboard GUI.
+
+**Updates**
+  - Updated Quiz Database
+  - Updated Anilist Database
+  - Updated Commands associated with updated database
+  - Updated the truncate function
+  - Updated the emoji sources
+
+- **Fixes**
+  - Fixed sauce command incorrectly showing date.
+  - Fixed message event accessing guild property when dmed.
+
+- **Removed**
+  - Deleted the archived files.
+
+---
+
 ### v3.0.2 (Patch)
 <font size="2" color="grey">November 02, 2020</font><br /><br />
 
