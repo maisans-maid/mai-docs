@@ -76,6 +76,15 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Mai | Made by Sakurajimai#6742`,
     },
   },
+ plugins: [
+     [
+       require.resolve("@easyops-cn/docusaurus-search-local"),
+       {
+         hashed: true,
+       	indexDocs: true
+       },
+     ],
+   ],
   presets: [
     [
       '@docusaurus/preset-classic',
